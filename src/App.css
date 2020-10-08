@@ -1,0 +1,42 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rewards{
+  width:75%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.monthly-rewards{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.monthly-rewards > ul{
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+
+li {
+  float: left;
+  margin: 0 20px;
+}
